@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "author": "John Smith",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "date": "2022-05-10"
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Node.js",
+      "author": "Jane Doe",
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem...",
+      "date": "2022-06-18"
+    },
+    {
+      "id": 3,
+      "title": "CSS Tips and Tricks",
+      "author": "Mark Johnson",
+      "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit...",
+      "date": "2022-07-25"
+    }
+  ]
+  

@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import copy from './copy.json';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>My Favorite Posts</h1>
+
+     <div>
+      {copy.map((post) => (
+        <div key={post.id}>
+          <h2>{post.title}</h2>
+          <p>Auuthor: {post.author}</p>
+          <p>Date: {post.date}</p>
+          <p>{post.content}</p>
+
+          </div>
+      )) }
+     </div>
+
+  
+    
     </div>
   );
 }
